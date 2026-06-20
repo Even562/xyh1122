@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>林夕 · 用视觉讲述故事</title>
+
+    <!-- Google Fonts - Noto Sans JP -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- 引入 CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <header class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">⛩️ 作品集</div>
+            <nav class="navbar-links">
+                <a href="#home" class="nav-link active" data-page="home">首页</a>
+                <a href="#about" class="nav-link" data-page="about">关于</a>
+                <a href="#illustration" class="nav-link" data-page="illustration">插画作品</a>
+                <a href="#product" class="nav-link" data-page="product">产品设计</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 页面容器 -->
+    <main class="page-container">
+        <!-- 首页 -->
+        <section id="page-home" class="page active">
+            <div class="container">
+                <div class="hero">
+                    <h1 class="hero-title">用视觉讲述故事</h1>
+                    <p class="hero-subtitle">独立艺术家 · 专注于纪录片视觉、场景设计与 IP 形象塑造。以克制的笔触和温润的质感，构建有温度的视觉叙事。</p>
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="featured-works">
+                    <h2 class="section-title">精选作品</h2>
+                    <div class="works-grid">
+                        <div class="work-card" data-target="illustration">
+                            <img src="assets/illustration/01-reading-light-illustration.jpg" alt="老塘晨夕 - 插画作品" class="work-card-image">
+                            <div class="work-card-info">
+                                <h3 class="work-card-title">老塘晨夕</h3>
+                                <p class="work-card-year">2024</p>
+                            </div>
+                        </div>
+                        <div class="work-card" data-target="illustration">
+                            <img src="assets/illustration/02-rainy-voyage-illustration.jpg" alt="山角博弈 - 插画作品" class="work-card-image">
+                            <div class="work-card-info">
+                                <h3 class="work-card-title">山角博弈</h3>
+                                <p class="work-card-year">2024</p>
+                            </div>
+                        </div>
+                        <div class="work-card" data-target="product">
+                            <img src="assets/illustration/03-starry-fridge-illustration.jpg" alt="包子铺 - 产品设计" class="work-card-image">
+                            <div class="work-card-info">
+                                <h3 class="work-card-title">包子铺</h3>
+                                <p class="work-card-year">2024</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="view-all">
+                        <a href="#illustration" class="view-all-link">查看全部作品 →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 关于页面 -->
+        <section id="page-about" class="page">
+            <div class="container">
+                <h1 class="page-title">关于</h1>
+                <div class="page-title-decoration"></div>
+
+                <div class="about-content">
+                    <div class="about-section">
+                        <h2 class="about-subtitle">艺术家简介</h2>
+                        <p class="about-text">林夕是一位独立视觉创作者，专注于纪录片视觉、场景设计与 IP 形象塑造。她擅长通过细腻的笔触和温润的质感，构建有温度的视觉叙事。她的作品常常融合自然元素与人文关怀，以克制的表达方式传递丰富的情感层次。</p>
+                    </div>
+
+                    <div class="about-section">
+                        <h2 class="about-subtitle">创作理念</h2>
+                        <p class="about-text">「少即是多」—— 留白不是空缺，而是邀请。我相信艺术的力量在于克制，在于给观者留出想象的空间。每一个线条、每一处色彩，都应当有其存在的理由，为叙事服务，不为表现而表现。</p>
+                    </div>
+
+                    <div class="about-section">
+                        <h2 class="about-subtitle">经历</h2>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-year">2025</div>
+                                <div class="timeline-content">独立纪录片《江畔纪事》视觉指导</div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-year">2025</div>
+                                <div class="timeline-content">「林间精灵」IP 形象全案设计</div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-year">2024</div>
+                                <div class="timeline-content">《山居秋暝》场景设计项目</div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-year">2023</div>
+                                <div class="timeline-content">参与群展「静观 · 自然」</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-section">
+                        <h2 class="about-subtitle">联系方式</h2>
+                        <div class="contact-links">
+                            <a href="mailto:linxi@example.com" class="contact-link">✉️ linxi@example.com</a>
+                            <a href="https://weibo.com/linxi-art" target="_blank" class="contact-link">📷 @林夕的视觉日记</a>
+                            <a href="https://www.zcool.com.cn/u/123456" target="_blank" class="contact-link">🎨 站酷主页</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 插画作品页面 -->
+        <section id="page-illustration" class="page">
+            <div class="container">
+                <h1 class="page-title">插画作品</h1>
+                <div class="page-title-decoration"></div>
+
+                <div class="works-list">
+                    <div class="work-item">
+                        <img src="assets/illustration/01-reading-light-illustration.jpg" alt="老塘晨夕 - 插画作品" class="work-image">
+                        <div class="work-info">
+                            <h3 class="work-title">老塘晨夕</h3>
+                            <p class="work-meta">纪录片 · 数字插画 · 2024</p>
+                            <p class="work-description">为独立纪录片创作的主视觉与系列场景插画，以江畔四季为线索，用低饱和的蓝绿调子勾勒出人与水域之间的静谧关联。</p>
+                        </div>
+                    </div>
+
+                    <div class="divider"></div>
+
+                    <div class="work-item">
+                        <img src="assets/illustration/02-rainy-voyage-illustration.jpg" alt="山角博弈 - 插画作品" class="work-image">
+                        <div class="work-info">
+                            <h3 class="work-title">山角博弈</h3>
+                            <p class="work-meta">IP 形象设计 · 数字插画 · 2024</p>
+                            <p class="work-description">以森林中的小精灵为灵感，融合自然元素与温润的手绘质感，打造了具有独立性格的角色形象，应用于文创产品与品牌视觉。</p>
+                        </div>
+                    </div>
+
+                    <div class="divider"></div>
+
+                    <div class="work-item">
+                        <img src="assets/illustration/03-starry-fridge-illustration.jpg" alt="包子铺 - 插画作品" class="work-image">
+                        <div class="work-info">
+                            <h3 class="work-title">包子铺</h3>
+                            <p class="work-meta">场景设计 · 数字插画 · 2024</p>
+                            <p class="work-description">为社区空间设计的场景概念，以日常生活中的小物件为切入点，通过温暖的色调和细腻的笔触，展现平凡生活中的诗意。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 产品设计页面 -->
+        <section id="page-product" class="page">
+            <div class="container">
+                <h1 class="page-title">产品设计</h1>
+                <div class="page-title-decoration"></div>
+
+                <div class="works-list">
+                    <div class="work-item">
+                        <img src="assets/products/01-cat-lamp-product.jpg" alt="老塘晨夕 - 产品设计" class="work-image">
+                        <div class="work-info">
+                            <h3 class="work-title">老塘晨夕</h3>
+                            <p class="work-meta">产品设计 · 陶瓷工艺 · 2024</p>
+                            <p class="work-description">基于纪录片《江畔纪事》视觉元素设计的猫咪台灯，陶瓷底座模拟水面涟漪，LED光源模拟晨光，光影交织间重现江畔晨曦。</p>
+                        </div>
+                    </div>
+
+                    <div class="divider"></div>
+
+                    <div class="work-item">
+                        <img src="assets/products/02-scented-candle-product.jpg" alt="山角博弈 - 产品设计" class="work-image">
+                        <div class="work-info">
+                            <h3 class="work-title">山角博弈</h3>
+                            <p class="work-meta">产品设计 · 天然大豆蜡 · 2024</p>
+                            <p class="work-description">灵感来自"山角博弈"IP形象的香薰蜡烛，包装设计融入角色元素，雪松与薄荷香气模拟森林中的清新空气，点燃后如同置身山间。</p>
+                        </div>
+                    </div>
+
+                    <div class="divider"></div>
+
+                    <div class="work-item">
+                        <img src="assets/products/03-storage-box-product.jpg" alt="包子铺 - 产品设计" class="work-image">
+                        <div class="work-info">
+                            <h3 class="work-title">包子铺</h3>
+                            <p class="work-meta">产品设计 · 木质工艺 · 2024</p>
+                            <p class="work-description">从"包子铺"场景中提取的收纳盒设计，多层分隔模拟包子褶皱，表面纹理呼应插画中的光影效果，实用与美观兼具。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>© 2026 林夕 · 用视觉讲述故事</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 引入 JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
